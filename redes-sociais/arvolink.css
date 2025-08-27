@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+body{
+    background-color: #16233a;
+}
+header{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+
+}
+
+main{
+    justify-content: center;
+    align-items: center;
+    color: blue;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 5px;
+}
+.linquediv{
+    border-spacing: 20px 15px;
+    border-collapse: separate;
+    color: #3c8cff;
+    font-family: "Nova Oval", system-ui;
+}   
+
+.itemtabela{
+    border: 1px solid #3c8cff;
+}
+
+.linquediv div{
+    display: flex;
+    background-color: #102840;
+    height: 10vh;
+    width: 20vw;
+    transition: height 0.5s;;
+    padding: 5px;
+    /* border-radius: 6px; */
+    align-items: center;
+    box-shadow: 5px 5px 0 #3c8cff;
+    
+    
+}
+.linquediv div:hover{
+    height: 13vh;
+
+    
+   
+}
+.linkzin {
+    display: flex; /* Transforma o elemento de texto em um flex container */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    color: white;
+    font-family: "Nova Oval", system-ui !important;
+}
+.imgpequena{
+    
+    width: 50px; /* Define a largura da imagem */
+    height: 50px; /* Define a altura da imagem */
+    border-radius: 5px; /* Arredonda a imagem */
+    object-fit: cover; /* Ajusta a imagem para cobrir o espaço */
+    margin-right: 10px;
+    margin-left: 5px;
+    
+        
+}
+.imggrande{
+    
+    width: 100px; /* Define a largura da imagem */
+    height: 100px; /* Define a altura da imagem */
+    border-radius: 50px; /*Arredonda a imagem*/
+    object-fit: cover; /* Ajusta a imagem para cobrir o espaço */
+    justify-items: center;
+    justify-content: center;
+    align-self: center;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+        
+}
+#arroba{
+    font-family: "Oldenburg", serif;
+    font-weight: 400;
+    font-style: large;
+    color: white;
+}
+
+nav{
+    background-color: #3c8cff;
+}
+
+.navbar-brand{
+    
+    color: #001f21;
+}
+a{
+    text-decoration: none;
+}
+
+.oldenburg-regular {
+    font-family: "Oldenburg", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.nova-oval-regular {
+    font-family: "Nova Oval", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+.emails{
+    color: white;
+}
+/* .pracelola{
+    
+} */
+.desc{
+    color: white;
+}
+
+.pracelola{
+    background-color: #1a273f;
+    width: 600px; /* Largura bem maior para não ficar estreito */
+    height: auto; /* Altura automática para caber todo o conteúdo */
+    min-height: 600px; /* Altura mínima */
+    margin: 20px auto; /* Centraliza horizontalmente */
+    border-radius: 25px; /* Bordas arredondadas como celular */
+    padding: 40px; /* Espaçamento interno maior */
+    box-shadow: 0 10px 30px #3c8cff; /* Sombra para dar profundidade */
+}
