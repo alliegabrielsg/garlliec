@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-color: #16233a;
+    color: white;
+}
+
+nav{
+    background-color: #3c8cff;
+}
+
+.navbar-brand{
+    color: #001f21;
+}
+
+a{
+    text-decoration: none;
+}
+
+.pracelola{
+    background-color: #1a273f;
+    width: 1100px; /* Largura bem maior para não ficar estreito */
+    height: auto; /* Altura automática para caber todo o conteúdo */
+    min-height: 600px; /* Altura mínima */
+    margin: 20px auto; /* Centraliza horizontalmente */
+    padding: 40px; /* Espaçamento interno maior */
+    border-radius: 5px; /* Bordas arredondadas */
+    
+}
+
+.pracelola h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+    font-family: "Oldenburg", serif;
+}
+
+.catalogo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Três colunas de tamanho igual */
+    gap: 16px; /* Espaçamento reduzido em 20% */
+    padding: 16px; /* Padding reduzido em 20% */
+}
+
+.imagem-item {
+    aspect-ratio: 1; /* Mantém proporção quadrada */
+    overflow: hidden;
+    border-radius: 4px; /* Reduzido em 20% */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Sombra reduzida em 20% */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 80%; /* Reduz o tamanho máximo em 20% */
+    margin: 0 auto; /* Centraliza as imagens */
+    border: 1px solid #3c8cff;
+}
+
+.imagem-item:hover {
+    transform: scale(1.3);
+    box-shadow: 0 6px 20px rgba(60, 140, 255, 0.4); /* Sombra hover reduzida em 20% */
+}
+
+.imagem-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Mantém proporção da imagem sem distorção */
+    display: block;
+}
+
+button {
+    display: block;
+    margin: 30px auto 0 auto; /* Centraliza horizontalmente e adiciona espaço em cima */
+    padding: 12px 24px;
+    background-color: #16233a;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 5px 5px 0 #3c8cff;
+    border: 1px solid #3c8cff;
+}
+
+button:hover {
+    background-color: #2a6fd9;
+    transform: translateY(-2px);
+    box-shadow: 5px 5px 0 #3c8cff;
+}
